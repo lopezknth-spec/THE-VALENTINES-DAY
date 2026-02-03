@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Be My Valentine 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating hearts -->
+  <div class="hearts"></div>
+
+  <!-- Background Music -->
+  <audio autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="card">
+    <img 
+      src="https://media.giphy.com/media/g9rtYY1BKdaQE/giphy.gif"
+      alt="cute gif"
+      class="gif"
+    >
+
+    <h1>Will you be my Valentine? 💕</h1>
+    <p>Choose wisely 😌</p>
+
+    <div class="buttons">
+      <button class="yes" onclick="yesChoice()">Yes 💘</button>
+      <button class="no" id="noBtn">No 💔</button>
+    </div>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
