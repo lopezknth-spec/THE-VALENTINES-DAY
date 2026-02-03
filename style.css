@@ -20,8 +20,9 @@ body {
 }
 
 .gif {
-  width: 180px;
+  width: 220px;
   border-radius: 15px;
+  margin-bottom: 10px;
 }
 
 h1 {
